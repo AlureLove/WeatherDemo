@@ -23,8 +23,6 @@ class LocationManager: NSObject, ObservableObject {
         isLoading = true
         manager.requestLocation()
     }
-    
-    
 }
 
 extension LocationManager: CLLocationManagerDelegate {
